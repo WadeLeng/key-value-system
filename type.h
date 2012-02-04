@@ -1,8 +1,8 @@
 /*============================================================================
 # Author: Wade Leng
 # E-mail: wade.hit@gmail.com
-# Last modified: 2011-12-11 20:12
-# Filename: type.h
+# Last modified:	2012-02-04 16:59
+# Filename:		type.h
 # Description: 
 ============================================================================*/
 #ifndef KVS_TYPE

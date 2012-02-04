@@ -1,8 +1,8 @@
 /*============================================================================
 # Author: Wade Leng
 # E-mail: wade.hit@gmail.com
-# Last modified: 2011-12-16 15:19
-# Filename: sync.c
+# Last modified:	2012-02-04 16:58
+# Filename:		sync.c
 # Description: 
 ============================================================================*/
 #define	_FILE_OFFSET_BITS	64

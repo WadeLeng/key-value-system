@@ -1,3 +1,10 @@
+/*============================================================================
+# Author: Wade Leng
+# E-mail: wade.hit@gmail.com
+# Last modified:	2012-02-04 16:57
+# Filename:		test_interface.c
+# Description: 
+============================================================================*/
 #include "kvs.h"
 #include <stdio.h>
 #include <stdlib.h>

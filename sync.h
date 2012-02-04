@@ -1,8 +1,8 @@
 /*============================================================================
 # Author: Wade Leng
 # E-mail: wade.hit@gmail.com
-# Last modified: 2011-12-16 15:18
-# Filename: sync.h
+# Last modified:	2012-02-04 16:59
+# Filename:		sync.h
 # Description: 
 ============================================================================*/
 #ifndef KVS_SYNC
