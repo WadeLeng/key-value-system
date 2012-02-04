@@ -1,0 +1,6 @@
+gcov 97.01%
+flush thread is too slow, warning提示刷新线程的时间不佳，flush太慢了
+test_buffer.c里给的buffer空间很小，目地是测试重复几遍往buffer写的正确性
+
+58行：disk_offset = disk_value_offset；需要恢复。
+修改的代码：把填充idxa里value_info放到了buffer内部，防止flush线程没等填充完就flush的情况，因为触发条件是not_flush_size,not_flush_size在填充value_info之前完成的。

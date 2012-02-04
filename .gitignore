@@ -1,0 +1,11 @@
+*.o
+*.gcno
+*.gcov
+*.gch
+*.c~
+*.gcda
+*.gcno
+value2.txt
+value.txt
+IMAGE_file
+

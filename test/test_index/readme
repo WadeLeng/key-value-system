@@ -1,0 +1,3 @@
+92.91% gcov
+缺少hash_2相等，hash_3小于的情况（_is_hash_same)
+layout.h里暂时把IDX_HT_TABLE_SIZE = 1
