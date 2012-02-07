@@ -6,6 +6,7 @@
 *.gcda
 *.gcno
 *.swp
+tags
 value2.txt
 value.txt
 IMAGE_file

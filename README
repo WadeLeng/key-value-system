@@ -8,7 +8,8 @@
 
 Contents of the directory tree is below.
 
-  ./		- sources of KVSystem
+  ./		- user files
+  ./src		- sources of KVSystem
   ./tool	- tools, for example:make input file
   ./trash	- something not finish (it is not released)
   ./test/	- for test and experiment (it is not released)
