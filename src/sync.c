@@ -27,7 +27,7 @@
 static int fd = 0;
 extern FILE* log_file;
 
-int sync_init(char* pathname, int file_len)
+int sync_init(char* pathname)
 {
 	fd = open(pathname, O_RDWR | O_LARGEFILE | O_CREAT , S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP); 
 	if (fd <= 0) 

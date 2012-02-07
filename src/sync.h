@@ -10,7 +10,7 @@
 
 #include "type.h"
 
-int sync_init(char* pathname, int file_len);
+int sync_init(char* pathname);
 int sync_read(char* mem, int size, OFFSET_T disk_offset);
 int sync_write(const char* mem, int size, OFFSET_T disk_offset);
 int sync_image_load(const char* file_name, char* g_image, int size);

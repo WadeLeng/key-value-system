@@ -36,7 +36,7 @@ int kv_init(const KVS_ENV* kvs)
 		}
 	}
 
-	if (sync_init(kvs->disk_file_path, kvs->bigfile_len) != 0)
+	if (sync_init(kvs->disk_file_path) != 0)
 	{
 		fprintf(log_file, "ERROR: sync init fail.\n");
 		return -1;

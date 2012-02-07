@@ -16,7 +16,6 @@ typedef struct KVS_ENV
 	char*		disk_file_path;
 	char*		IMAGE_file_path;
 	char*		log_file_path;
-	int		bigfile_len;
 	int		buffer_sleep_time;
 	int		buffer_horizon_size;
 	int		buffer_size;

@@ -26,7 +26,6 @@ void fill_kvs_env()
 	kvs_env.disk_file_path = "disk_file";
 	kvs_env.IMAGE_file_path = "IMAGE_file";
 	kvs_env.log_file_path = "log_file";
-	kvs_env.bigfile_len = 450*1024*1024;
 	kvs_env.buffer_sleep_time = 1;
 	kvs_env.buffer_horizon_size = 10;
 	kvs_env.buffer_size = 100*1024*1024;
