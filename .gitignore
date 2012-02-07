@@ -5,6 +5,7 @@
 *.c~
 *.gcda
 *.gcno
+*.swp
 value2.txt
 value.txt
 IMAGE_file

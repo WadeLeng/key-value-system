@@ -36,7 +36,6 @@ int idx_init(const char* image, INIT_TYPE init_type)
 {
 	int i;
 	PTR_KW j;
-	IDX_NODE temp;
 
 	ht_table = (PTR_KW*)(image + IMAGE_HT_TABLE);
 	idx_nodes = (IDX_NODE*)(image + IMAGE_IDX_NODES);

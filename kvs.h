@@ -9,7 +9,7 @@
 #define KVS_INTERFACE
 
 #include "type.h"
-
+//enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};
 typedef struct KVS_ENV
 {
 	enum init_enum	init_type;

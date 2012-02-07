@@ -1,0 +1,605 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIGFILE_LEN	test/test_sync_mmap(not finish)/sync.c	/^static	int	BIGFILE_LEN;$/;"	v	file:
+BIGFILE_LEN	trash/sync_mmap/sync.c	/^static	int	BIGFILE_LEN;$/;"	v	file:
+BUFFER_SIZE	test/test_buffer/test_buffer.c	14;"	d	file:
+BUFFER_SIZE	test/test_interface/test_buffer.c	7;"	d	file:
+BUF_PTR_NULL	layout.h	36;"	d
+BUF_PTR_NULL	test/test_buffer/layout.h	36;"	d
+BUF_PTR_NULL	test/test_index/layout.h	36;"	d
+BUF_PTR_NULL	test/test_interface/layout.h	36;"	d
+BUF_PTR_NULL	test/test_sync/layout.h	36;"	d
+BUF_PTR_NULL	test/test_sync_mmap(not finish)/layout.h	36;"	d
+DISK_IMAGE_OFFSET	layout.h	31;"	d
+DISK_IMAGE_OFFSET	test/test_buffer/layout.h	31;"	d
+DISK_IMAGE_OFFSET	test/test_index/layout.h	31;"	d
+DISK_IMAGE_OFFSET	test/test_interface/layout.h	31;"	d
+DISK_IMAGE_OFFSET	test/test_sync/layout.h	31;"	d
+DISK_IMAGE_OFFSET	test/test_sync_mmap(not finish)/layout.h	31;"	d
+DISK_OFFSET_NULL	layout.h	37;"	d
+DISK_OFFSET_NULL	test/test_buffer/layout.h	37;"	d
+DISK_OFFSET_NULL	test/test_index/layout.h	37;"	d
+DISK_OFFSET_NULL	test/test_interface/layout.h	37;"	d
+DISK_OFFSET_NULL	test/test_sync/layout.h	37;"	d
+DISK_OFFSET_NULL	test/test_sync_mmap(not finish)/layout.h	37;"	d
+DISK_VALUE_OFFSET	layout.h	32;"	d
+DISK_VALUE_OFFSET	test/test_buffer/layout.h	32;"	d
+DISK_VALUE_OFFSET	test/test_index/layout.h	32;"	d
+DISK_VALUE_OFFSET	test/test_interface/layout.h	32;"	d
+DISK_VALUE_OFFSET	test/test_sync/layout.h	32;"	d
+DISK_VALUE_OFFSET	test/test_sync_mmap(not finish)/layout.h	32;"	d
+HASH	test/test_buffer/type.h	/^typedef int		HASH;$/;"	t
+HASH	test/test_index/type.h	/^typedef int		HASH;$/;"	t
+HASH	test/test_interface/type.h	/^typedef int			HASH;$/;"	t
+HASH	test/test_sync/type.h	/^typedef int		HASH;$/;"	t
+HASH	test/test_sync_mmap(not finish)/type.h	/^typedef int		HASH;$/;"	t
+HASH	type.h	/^typedef int			HASH;$/;"	t
+IDX_HT_TABLE_SIZE	layout.h	29;"	d
+IDX_HT_TABLE_SIZE	test/test_buffer/layout.h	29;"	d
+IDX_HT_TABLE_SIZE	test/test_index/layout.h	29;"	d
+IDX_HT_TABLE_SIZE	test/test_interface/layout.h	29;"	d
+IDX_HT_TABLE_SIZE	test/test_sync/layout.h	29;"	d
+IDX_HT_TABLE_SIZE	test/test_sync_mmap(not finish)/layout.h	29;"	d
+IDX_NODE	index.c	/^typedef struct IDX_NODE $/;"	s	file:
+IDX_NODE	index.c	/^}IDX_NODE;$/;"	t	typeref:struct:IDX_NODE	file:
+IDX_NODE	test/test_buffer/index.c	/^typedef struct IDX_NODE $/;"	s	file:
+IDX_NODE	test/test_buffer/index.c	/^}IDX_NODE;$/;"	t	typeref:struct:IDX_NODE	file:
+IDX_NODE	test/test_index/index.c	/^typedef struct IDX_NODE $/;"	s	file:
+IDX_NODE	test/test_index/index.c	/^}IDX_NODE;$/;"	t	typeref:struct:IDX_NODE	file:
+IDX_NODE	test/test_interface/index.c	/^typedef struct IDX_NODE $/;"	s	file:
+IDX_NODE	test/test_interface/index.c	/^}IDX_NODE;$/;"	t	typeref:struct:IDX_NODE	file:
+IDX_NODES_MAX	layout.h	28;"	d
+IDX_NODES_MAX	test/test_buffer/layout.h	28;"	d
+IDX_NODES_MAX	test/test_index/layout.h	28;"	d
+IDX_NODES_MAX	test/test_interface/layout.h	28;"	d
+IDX_NODES_MAX	test/test_sync/layout.h	28;"	d
+IDX_NODES_MAX	test/test_sync_mmap(not finish)/layout.h	28;"	d
+IDX_NODE_NULL	layout.h	38;"	d
+IDX_NODE_NULL	test/test_buffer/layout.h	38;"	d
+IDX_NODE_NULL	test/test_index/layout.h	38;"	d
+IDX_NODE_NULL	test/test_interface/layout.h	38;"	d
+IDX_NODE_NULL	test/test_sync/layout.h	38;"	d
+IDX_NODE_NULL	test/test_sync_mmap(not finish)/layout.h	38;"	d
+IDX_VALUE_INFO	index.h	/^typedef struct IDX_VALUE_INFO$/;"	s
+IDX_VALUE_INFO	index.h	/^}IDX_VALUE_INFO;$/;"	t	typeref:struct:IDX_VALUE_INFO
+IDX_VALUE_INFO	test/test_buffer/index.h	/^typedef struct IDX_VALUE_INFO$/;"	s
+IDX_VALUE_INFO	test/test_buffer/index.h	/^}IDX_VALUE_INFO;$/;"	t	typeref:struct:IDX_VALUE_INFO
+IDX_VALUE_INFO	test/test_index/index.h	/^typedef struct IDX_VALUE_INFO$/;"	s
+IDX_VALUE_INFO	test/test_index/index.h	/^}IDX_VALUE_INFO;$/;"	t	typeref:struct:IDX_VALUE_INFO
+IDX_VALUE_INFO	test/test_interface/index.h	/^typedef struct IDX_VALUE_INFO$/;"	s
+IDX_VALUE_INFO	test/test_interface/index.h	/^}IDX_VALUE_INFO;$/;"	t	typeref:struct:IDX_VALUE_INFO
+IMAGE_FREE_IDX_NODES	layout.h	23;"	d
+IMAGE_FREE_IDX_NODES	test/test_buffer/layout.h	23;"	d
+IMAGE_FREE_IDX_NODES	test/test_index/layout.h	23;"	d
+IMAGE_FREE_IDX_NODES	test/test_interface/layout.h	23;"	d
+IMAGE_FREE_IDX_NODES	test/test_sync/layout.h	23;"	d
+IMAGE_FREE_IDX_NODES	test/test_sync_mmap(not finish)/layout.h	23;"	d
+IMAGE_FREE_IDX_NODES_HORIZON	layout.h	24;"	d
+IMAGE_FREE_IDX_NODES_HORIZON	test/test_buffer/layout.h	24;"	d
+IMAGE_FREE_IDX_NODES_HORIZON	test/test_index/layout.h	24;"	d
+IMAGE_FREE_IDX_NODES_HORIZON	test/test_interface/layout.h	24;"	d
+IMAGE_FREE_IDX_NODES_HORIZON	test/test_sync/layout.h	24;"	d
+IMAGE_FREE_IDX_NODES_HORIZON	test/test_sync_mmap(not finish)/layout.h	24;"	d
+IMAGE_HT_TABLE	layout.h	21;"	d
+IMAGE_HT_TABLE	test/test_buffer/layout.h	21;"	d
+IMAGE_HT_TABLE	test/test_index/layout.h	21;"	d
+IMAGE_HT_TABLE	test/test_interface/layout.h	21;"	d
+IMAGE_HT_TABLE	test/test_sync/layout.h	21;"	d
+IMAGE_HT_TABLE	test/test_sync_mmap(not finish)/layout.h	21;"	d
+IMAGE_IDX_NODES	layout.h	22;"	d
+IMAGE_IDX_NODES	test/test_buffer/layout.h	22;"	d
+IMAGE_IDX_NODES	test/test_index/layout.h	22;"	d
+IMAGE_IDX_NODES	test/test_interface/layout.h	22;"	d
+IMAGE_IDX_NODES	test/test_sync/layout.h	22;"	d
+IMAGE_IDX_NODES	test/test_sync_mmap(not finish)/layout.h	22;"	d
+IMAGE_SIZE	layout.h	26;"	d
+IMAGE_SIZE	test/test_buffer/layout.h	26;"	d
+IMAGE_SIZE	test/test_index/layout.h	26;"	d
+IMAGE_SIZE	test/test_interface/layout.h	26;"	d
+IMAGE_SIZE	test/test_sync/layout.h	26;"	d
+IMAGE_SIZE	test/test_sync_mmap(not finish)/layout.h	26;"	d
+IMAGE_file_name	interface.c	/^static	char* IMAGE_file_name = NULL;$/;"	v	file:
+IMAGE_file_name	test/test_interface/interface.c	/^static	char* IMAGE_file_name = NULL;$/;"	v	file:
+IMAGE_file_path	kvs.h	/^	char*		IMAGE_file_path;$/;"	m	struct:KVS_ENV
+IMAGE_file_path	test/test_interface/kvs.h	/^	char*		IMAGE_file_path;$/;"	m	struct:KVS_ENV
+INIT_TYPE	test/test_buffer/type.h	/^typedef int		INIT_TYPE;$/;"	t
+INIT_TYPE	test/test_index/type.h	/^typedef int		INIT_TYPE;$/;"	t
+INIT_TYPE	test/test_interface/type.h	/^typedef int			INIT_TYPE;$/;"	t
+INIT_TYPE	test/test_sync/type.h	/^typedef int		INIT_TYPE;$/;"	t
+INIT_TYPE	test/test_sync_mmap(not finish)/type.h	/^typedef int		INIT_TYPE;$/;"	t
+INIT_TYPE	type.h	/^typedef int			INIT_TYPE;$/;"	t
+INIT_TYPE_CREATE	test/test_buffer/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	e	enum:init_enum
+INIT_TYPE_CREATE	test/test_index/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	e	enum:init_enum
+INIT_TYPE_CREATE	test/test_interface/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	e	enum:init_enum
+INIT_TYPE_CREATE	test/test_sync/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	e	enum:init_enum
+INIT_TYPE_CREATE	test/test_sync_mmap(not finish)/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	e	enum:init_enum
+INIT_TYPE_CREATE	type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	e	enum:init_enum
+INIT_TYPE_LOAD	test/test_buffer/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	e	enum:init_enum
+INIT_TYPE_LOAD	test/test_index/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	e	enum:init_enum
+INIT_TYPE_LOAD	test/test_interface/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	e	enum:init_enum
+INIT_TYPE_LOAD	test/test_sync/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	e	enum:init_enum
+INIT_TYPE_LOAD	test/test_sync_mmap(not finish)/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	e	enum:init_enum
+INIT_TYPE_LOAD	type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	e	enum:init_enum
+KVS_BUFFER	buffer.h	9;"	d
+KVS_BUFFER	test/test_buffer/buffer.h	9;"	d
+KVS_BUFFER	test/test_interface/buffer.h	9;"	d
+KVS_ENV	kvs.h	/^typedef struct KVS_ENV$/;"	s
+KVS_ENV	kvs.h	/^}KVS_ENV;$/;"	t	typeref:struct:KVS_ENV
+KVS_ENV	test/test_interface/kvs.h	/^typedef struct KVS_ENV$/;"	s
+KVS_ENV	test/test_interface/kvs.h	/^}KVS_ENV;$/;"	t	typeref:struct:KVS_ENV
+KVS_INDEX	index.h	9;"	d
+KVS_INDEX	test/test_buffer/index.h	9;"	d
+KVS_INDEX	test/test_index/index.h	9;"	d
+KVS_INDEX	test/test_interface/index.h	9;"	d
+KVS_INTERFACE	kvs.h	9;"	d
+KVS_INTERFACE	test/test_interface/kvs.h	9;"	d
+KVS_LAYOUT	layout.h	9;"	d
+KVS_LAYOUT	test/test_buffer/layout.h	9;"	d
+KVS_LAYOUT	test/test_index/layout.h	9;"	d
+KVS_LAYOUT	test/test_interface/layout.h	9;"	d
+KVS_LAYOUT	test/test_sync/layout.h	9;"	d
+KVS_LAYOUT	test/test_sync_mmap(not finish)/layout.h	9;"	d
+KVS_SYNC	sync.h	9;"	d
+KVS_SYNC	test/test_buffer/sync.h	9;"	d
+KVS_SYNC	test/test_interface/sync.h	9;"	d
+KVS_SYNC	test/test_sync/sync.h	9;"	d
+KVS_SYNC	test/test_sync_mmap(not finish)/sync.h	9;"	d
+KVS_SYNC	trash/sync_mmap/sync.h	9;"	d
+KVS_SYNC	trash/sync_read/sync.h	9;"	d
+KVS_TYPE	test/test_buffer/type.h	9;"	d
+KVS_TYPE	test/test_index/type.h	9;"	d
+KVS_TYPE	test/test_interface/type.h	9;"	d
+KVS_TYPE	test/test_sync/type.h	9;"	d
+KVS_TYPE	test/test_sync_mmap(not finish)/type.h	9;"	d
+KVS_TYPE	type.h	9;"	d
+MAX_KEY_SIZE	test/test_index/test_index.c	13;"	d	file:
+MAX_SIZE	test/test_interface/test_interface.c	5;"	d	file:
+MAX_SIZE	test_interface.c	12;"	d	file:
+OFFSET_T	test/test_buffer/type.h	/^typedef	int	 	OFFSET_T;$/;"	t
+OFFSET_T	test/test_index/type.h	/^typedef	long	 	OFFSET_T;$/;"	t
+OFFSET_T	test/test_interface/type.h	/^typedef	int	 		OFFSET_T;$/;"	t
+OFFSET_T	test/test_sync/type.h	/^typedef	long	 	OFFSET_T;$/;"	t
+OFFSET_T	test/test_sync_mmap(not finish)/type.h	/^typedef	long	 	OFFSET_T;$/;"	t
+OFFSET_T	type.h	/^typedef	int	 		OFFSET_T;$/;"	t
+PAGE_SIZE	test/test_sync_mmap(not finish)/sync.c	/^static	int	PAGE_SIZE;$/;"	v	file:
+PTR_BUF	test/test_buffer/type.h	/^typedef char*		PTR_BUF;$/;"	t
+PTR_BUF	test/test_index/type.h	/^typedef char*		PTR_BUF;$/;"	t
+PTR_BUF	test/test_interface/type.h	/^typedef char*		PTR_BUF;$/;"	t
+PTR_BUF	test/test_sync/type.h	/^typedef char*		PTR_BUF;$/;"	t
+PTR_BUF	test/test_sync_mmap(not finish)/type.h	/^typedef char*		PTR_BUF;$/;"	t
+PTR_BUF	type.h	/^typedef char*		PTR_BUF;$/;"	t
+PTR_KW	test/test_buffer/type.h	/^typedef int		PTR_KW;$/;"	t
+PTR_KW	test/test_index/type.h	/^typedef int		PTR_KW;$/;"	t
+PTR_KW	test/test_interface/type.h	/^typedef int			PTR_KW;$/;"	t
+PTR_KW	test/test_sync/type.h	/^typedef int		PTR_KW;$/;"	t
+PTR_KW	test/test_sync_mmap(not finish)/type.h	/^typedef int		PTR_KW;$/;"	t
+PTR_KW	type.h	/^typedef int			PTR_KW;$/;"	t
+VALUE_MAX_SIZE	layout.h	34;"	d
+VALUE_MAX_SIZE	test/test_buffer/layout.h	34;"	d
+VALUE_MAX_SIZE	test/test_index/layout.h	34;"	d
+VALUE_MAX_SIZE	test/test_interface/layout.h	34;"	d
+VALUE_MAX_SIZE	test/test_sync/layout.h	34;"	d
+VALUE_MAX_SIZE	test/test_sync_mmap(not finish)/layout.h	34;"	d
+_FILE_OFFSET_BITS	sync.c	8;"	d	file:
+_FILE_OFFSET_BITS	test/test_buffer/sync.c	8;"	d	file:
+_FILE_OFFSET_BITS	test/test_buffer/type.h	11;"	d
+_FILE_OFFSET_BITS	test/test_index/type.h	11;"	d
+_FILE_OFFSET_BITS	test/test_interface/sync.c	8;"	d	file:
+_FILE_OFFSET_BITS	test/test_interface/type.h	11;"	d
+_FILE_OFFSET_BITS	test/test_sync/sync.c	8;"	d	file:
+_FILE_OFFSET_BITS	test/test_sync/type.h	11;"	d
+_FILE_OFFSET_BITS	test/test_sync_mmap(not finish)/sync.c	8;"	d	file:
+_FILE_OFFSET_BITS	test/test_sync_mmap(not finish)/type.h	11;"	d
+_FILE_OFFSET_BITS	trash/sync_mmap/sync.c	8;"	d	file:
+_FILE_OFFSET_BITS	trash/sync_read/sync.c	8;"	d	file:
+_FILE_OFFSET_BITS	type.h	11;"	d
+_LARGEFILE64_SOURCE	sync.c	10;"	d	file:
+_LARGEFILE64_SOURCE	test/test_buffer/sync.c	10;"	d	file:
+_LARGEFILE64_SOURCE	test/test_buffer/type.h	13;"	d
+_LARGEFILE64_SOURCE	test/test_index/type.h	13;"	d
+_LARGEFILE64_SOURCE	test/test_interface/sync.c	10;"	d	file:
+_LARGEFILE64_SOURCE	test/test_interface/type.h	13;"	d
+_LARGEFILE64_SOURCE	test/test_sync/sync.c	10;"	d	file:
+_LARGEFILE64_SOURCE	test/test_sync/type.h	13;"	d
+_LARGEFILE64_SOURCE	test/test_sync_mmap(not finish)/sync.c	10;"	d	file:
+_LARGEFILE64_SOURCE	test/test_sync_mmap(not finish)/type.h	13;"	d
+_LARGEFILE64_SOURCE	trash/sync_mmap/sync.c	10;"	d	file:
+_LARGEFILE64_SOURCE	trash/sync_read/sync.c	10;"	d	file:
+_LARGEFILE64_SOURCE	type.h	13;"	d
+_LARGEFILE_SOURCE	sync.c	9;"	d	file:
+_LARGEFILE_SOURCE	test/test_buffer/sync.c	9;"	d	file:
+_LARGEFILE_SOURCE	test/test_buffer/type.h	12;"	d
+_LARGEFILE_SOURCE	test/test_index/type.h	12;"	d
+_LARGEFILE_SOURCE	test/test_interface/sync.c	9;"	d	file:
+_LARGEFILE_SOURCE	test/test_interface/type.h	12;"	d
+_LARGEFILE_SOURCE	test/test_sync/sync.c	9;"	d	file:
+_LARGEFILE_SOURCE	test/test_sync/type.h	12;"	d
+_LARGEFILE_SOURCE	test/test_sync_mmap(not finish)/sync.c	9;"	d	file:
+_LARGEFILE_SOURCE	test/test_sync_mmap(not finish)/type.h	12;"	d
+_LARGEFILE_SOURCE	trash/sync_mmap/sync.c	9;"	d	file:
+_LARGEFILE_SOURCE	trash/sync_read/sync.c	9;"	d	file:
+_LARGEFILE_SOURCE	type.h	12;"	d
+_get_free_idx_node	index.c	/^static int _get_free_idx_node()$/;"	f	file:
+_get_free_idx_node	test/test_buffer/index.c	/^static int _get_free_idx_node()$/;"	f	file:
+_get_free_idx_node	test/test_index/index.c	/^static int _get_free_idx_node()$/;"	f	file:
+_get_free_idx_node	test/test_interface/index.c	/^static int _get_free_idx_node()$/;"	f	file:
+_is_hash_same	index.c	/^static int _is_hash_same(HASH hash_x2, HASH hash_x3, HASH hash_y2, HASH hash_y3)$/;"	f	file:
+_is_hash_same	test/test_buffer/index.c	/^static int _is_hash_same(HASH hash_x2, HASH hash_x3, HASH hash_y2, HASH hash_y3)$/;"	f	file:
+_is_hash_same	test/test_index/index.c	/^static int _is_hash_same(HASH hash_x2, HASH hash_x3, HASH hash_y2, HASH hash_y3)$/;"	f	file:
+_is_hash_same	test/test_interface/index.c	/^static int _is_hash_same(HASH hash_x2, HASH hash_x3, HASH hash_y2, HASH hash_y3)$/;"	f	file:
+_put_free_idx_node	index.c	/^static void _put_free_idx_node(int node_id)$/;"	f	file:
+_put_free_idx_node	test/test_buffer/index.c	/^static void _put_free_idx_node(int node_id)$/;"	f	file:
+_put_free_idx_node	test/test_index/index.c	/^static void _put_free_idx_node(int node_id)$/;"	f	file:
+_put_free_idx_node	test/test_interface/index.c	/^static void _put_free_idx_node(int node_id)$/;"	f	file:
+ans	test/test_sync/test_sync.c	/^char ans[5*1024];$/;"	v
+ans	test/test_sync_mmap(not finish)/test_sync.c	/^char ans[5*1024];$/;"	v
+bigfile_len	kvs.h	/^	int		bigfile_len;$/;"	m	struct:KVS_ENV
+bigfile_len	test/test_interface/kvs.h	/^	int		bigfile_len;$/;"	m	struct:KVS_ENV
+buf_pool	buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+buf_pool	test/test_buffer/buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+buf_pool	test/test_interface/buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+buf_ptr	index.h	/^	PTR_BUF		buf_ptr;$/;"	m	struct:IDX_VALUE_INFO
+buf_ptr	test/test_buffer/index.h	/^	PTR_BUF		buf_ptr;$/;"	m	struct:IDX_VALUE_INFO
+buf_ptr	test/test_buffer/test_buffer.c	/^	PTR_BUF buf_ptr;$/;"	m	struct:value_type	file:
+buf_ptr	test/test_index/index.h	/^	PTR_BUF		buf_ptr;$/;"	m	struct:IDX_VALUE_INFO
+buf_ptr	test/test_interface/index.h	/^	PTR_BUF		buf_ptr;$/;"	m	struct:IDX_VALUE_INFO
+buf_ptr	test/test_interface/test_buffer.c	/^	PTR_BUF buf_ptr;$/;"	m	struct:value_type	file:
+buf_word	buffer.h	/^typedef struct buf_word$/;"	s
+buf_word	buffer.h	/^}buf_word;$/;"	t	typeref:struct:buf_word
+buf_word	test/test_buffer/buffer.h	/^typedef struct buf_word$/;"	s
+buf_word	test/test_buffer/buffer.h	/^}buf_word;$/;"	t	typeref:struct:buf_word
+buf_word	test/test_interface/buffer.h	/^typedef struct buf_word$/;"	s
+buf_word	test/test_interface/buffer.h	/^}buf_word;$/;"	t	typeref:struct:buf_word
+buffer	test/test_buffer/test_buffer.c	/^char buffer[BUFFER_SIZE];\/\/200MB$/;"	v
+buffer	test/test_interface/test_buffer.c	/^char buffer[BUFFER_SIZE];\/\/200MB$/;"	v
+buffer_delete	buffer.c	/^int buffer_delete(PTR_BUF buf_value_ptr)$/;"	f
+buffer_delete	test/test_buffer/buffer.c	/^int buffer_delete(PTR_BUF buf_value_ptr)$/;"	f
+buffer_delete	test/test_interface/buffer.c	/^int buffer_delete(PTR_BUF buf_value_ptr)$/;"	f
+buffer_exit	buffer.c	/^int buffer_exit()$/;"	f
+buffer_exit	test/test_buffer/buffer.c	/^int buffer_exit()$/;"	f
+buffer_exit	test/test_interface/buffer.c	/^int buffer_exit()$/;"	f
+buffer_get	buffer.c	/^int buffer_get(PTR_BUF buf, int buf_size, PTR_BUF buf_value_ptr)$/;"	f
+buffer_get	test/test_buffer/buffer.c	/^int buffer_get(PTR_BUF buf, int buf_size, PTR_BUF buf_value_ptr)$/;"	f
+buffer_get	test/test_interface/buffer.c	/^int buffer_get(PTR_BUF buf, int buf_size, PTR_BUF buf_value_ptr)$/;"	f
+buffer_horizon_size	buffer.c	/^static	int			sleep_time, not_flush_size, buffer_horizon_size;$/;"	v	file:
+buffer_horizon_size	kvs.h	/^	int		buffer_horizon_size;$/;"	m	struct:KVS_ENV
+buffer_horizon_size	test/test_buffer/buffer.c	/^static	int		sleep_time, not_flush_size, buffer_horizon_size;$/;"	v	file:
+buffer_horizon_size	test/test_interface/buffer.c	/^static	int			sleep_time, not_flush_size, buffer_horizon_size;$/;"	v	file:
+buffer_horizon_size	test/test_interface/kvs.h	/^	int		buffer_horizon_size;$/;"	m	struct:KVS_ENV
+buffer_init	buffer.c	/^int buffer_init(const char* buffer_mem, const int buf_size, const int buffer_sleep_time, const int horizon_size)$/;"	f
+buffer_init	test/test_buffer/buffer.c	/^int buffer_init(const char* buffer_mem, const char* buffer_log, const int buf_size, const int buffer_sleep_time, const int horizon_size)$/;"	f
+buffer_init	test/test_interface/buffer.c	/^int buffer_init(const char* buffer_mem, const int buf_size, const int buffer_sleep_time, const int horizon_size)$/;"	f
+buffer_lookout	buffer.c	/^static void* buffer_lookout()$/;"	f	file:
+buffer_lookout	test/test_buffer/buffer.c	/^static void* buffer_lookout()$/;"	f	file:
+buffer_lookout	test/test_interface/buffer.c	/^static void* buffer_lookout()$/;"	f	file:
+buffer_put	buffer.c	/^int buffer_put(const char* value, int value_size, PTR_BUF* buf_value_ptr, IDX_VALUE_INFO* value_info_ptr)$/;"	f
+buffer_put	test/test_buffer/buffer.c	/^int buffer_put(const char* value, int value_size, PTR_BUF* buf_value_ptr, IDX_VALUE_INFO* value_info_ptr)$/;"	f
+buffer_put	test/test_interface/buffer.c	/^int buffer_put(const char* value, int value_size, PTR_BUF* buf_value_ptr, IDX_VALUE_INFO* value_info_ptr)$/;"	f
+buffer_size	kvs.h	/^	int		buffer_size;$/;"	m	struct:KVS_ENV
+buffer_size	test/test_interface/kvs.h	/^	int		buffer_size;$/;"	m	struct:KVS_ENV
+buffer_sleep_time	kvs.h	/^	int		buffer_sleep_time;$/;"	m	struct:KVS_ENV
+buffer_sleep_time	test/test_interface/kvs.h	/^	int		buffer_sleep_time;$/;"	m	struct:KVS_ENV
+buffer_total_size	buffer.c	/^static	int			buffer_total_size, exit_flag;$/;"	v	file:
+buffer_total_size	test/test_buffer/buffer.c	/^static	int		buffer_total_size, exit_flag;$/;"	v	file:
+buffer_total_size	test/test_interface/buffer.c	/^static	int			buffer_total_size, exit_flag;$/;"	v	file:
+delete_info	test/test_buffer/test_buffer.c	/^IDX_VALUE_INFO	delete_info[300];$/;"	v
+delete_info	test/test_interface/test_buffer.c	/^IDX_VALUE_INFO	delete_info[300];$/;"	v
+diff	buffer.c	/^enum	diff_t		diff;$/;"	v	typeref:enum:diff_t
+diff	test/test_buffer/buffer.c	/^enum	diff_t		diff;$/;"	v	typeref:enum:diff_t
+diff	test/test_interface/buffer.c	/^enum	diff_t		diff;$/;"	v	typeref:enum:diff_t
+diff_t	buffer.c	/^enum	diff_t 		{same, one, two};$/;"	g	file:
+diff_t	test/test_buffer/buffer.c	/^enum	diff_t 		{same, one, two};$/;"	g	file:
+diff_t	test/test_interface/buffer.c	/^enum	diff_t 		{same, one, two};$/;"	g	file:
+disk_file_path	kvs.h	/^	char*		disk_file_path;$/;"	m	struct:KVS_ENV
+disk_file_path	test/test_interface/kvs.h	/^	char*		disk_file_path;$/;"	m	struct:KVS_ENV
+disk_offset	buffer.c	/^OFFSET_T			disk_offset;$/;"	v
+disk_offset	index.h	/^	OFFSET_T	disk_offset;$/;"	m	struct:IDX_VALUE_INFO
+disk_offset	test/test_buffer/buffer.c	/^OFFSET_T		disk_offset;$/;"	v
+disk_offset	test/test_buffer/index.h	/^	OFFSET_T	disk_offset;$/;"	m	struct:IDX_VALUE_INFO
+disk_offset	test/test_index/index.h	/^	OFFSET_T	disk_offset;$/;"	m	struct:IDX_VALUE_INFO
+disk_offset	test/test_interface/buffer.c	/^OFFSET_T			disk_offset;$/;"	v
+disk_offset	test/test_interface/index.h	/^	OFFSET_T	disk_offset;$/;"	m	struct:IDX_VALUE_INFO
+disk_offset	test/test_sync/test_sync.c	/^OFFSET_T disk_offset;$/;"	v
+disk_offset	test/test_sync_mmap(not finish)/test_sync.c	/^OFFSET_T disk_offset;$/;"	v
+exit_flag	buffer.c	/^static	int			buffer_total_size, exit_flag;$/;"	v	file:
+exit_flag	test/test_buffer/buffer.c	/^static	int		buffer_total_size, exit_flag;$/;"	v	file:
+exit_flag	test/test_interface/buffer.c	/^static	int			buffer_total_size, exit_flag;$/;"	v	file:
+exploit_ptr	buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+exploit_ptr	test/test_buffer/buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+exploit_ptr	test/test_interface/buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+fd	sync.c	/^static int fd = 0;$/;"	v	file:
+fd	test/test_buffer/sync.c	/^static int fd = 0;$/;"	v	file:
+fd	test/test_interface/sync.c	/^static int fd = 0;$/;"	v	file:
+fd	test/test_sync/sync.c	/^static int fd = 0;$/;"	v	file:
+fd	test/test_sync_mmap(not finish)/sync.c	/^static	int	fd = -1; $/;"	v	file:
+fd	trash/sync_mmap/sync.c	/^static	int	fd = -1; $/;"	v	file:
+fd	trash/sync_read/sync.c	/^static int fd = 0;$/;"	v	file:
+fill_kvs_env	test/test_interface/test_interface.c	/^void fill_kvs_env()$/;"	f
+fill_kvs_env	test_interface.c	/^void fill_kvs_env()$/;"	f
+first_flag	buffer.c	/^static	int			first_flag, rest_space = 0;$/;"	v	file:
+first_flag	test/test_buffer/buffer.c	/^static	int		first_flag, rest_space = 0;$/;"	v	file:
+first_flag	test/test_interface/buffer.c	/^static	int			first_flag, rest_space = 0;$/;"	v	file:
+flush_all	test/test_buffer/buffer.c	/^void flush_all(void* arg)$/;"	f
+free_idx_nodes_stack	index.c	/^static	PTR_KW*		free_idx_nodes_stack = NULL;$/;"	v	file:
+free_idx_nodes_stack	test/test_buffer/index.c	/^static	PTR_KW*		free_idx_nodes_stack = NULL;$/;"	v	file:
+free_idx_nodes_stack	test/test_index/index.c	/^static	PTR_KW*		free_idx_nodes_stack = NULL;$/;"	v	file:
+free_idx_nodes_stack	test/test_interface/index.c	/^static	PTR_KW*		free_idx_nodes_stack = NULL;$/;"	v	file:
+free_idx_nodes_top	index.c	/^static	PTR_KW*		free_idx_nodes_top;$/;"	v	file:
+free_idx_nodes_top	test/test_buffer/index.c	/^static	PTR_KW		free_idx_nodes_top;$/;"	v	file:
+free_idx_nodes_top	test/test_index/index.c	/^static	PTR_KW		free_idx_nodes_top;$/;"	v	file:
+free_idx_nodes_top	test/test_interface/index.c	/^static	PTR_KW*		free_idx_nodes_top;$/;"	v	file:
+g_image	interface.c	/^static	char* g_image = NULL;$/;"	v	file:
+g_image	test/test_interface/interface.c	/^static	char* g_image = NULL;$/;"	v	file:
+hash_2	index.c	/^	HASH					hash_2, hash_3;$/;"	m	struct:IDX_NODE	file:
+hash_2	test/test_buffer/index.c	/^	HASH				hash_2, hash_3;$/;"	m	struct:IDX_NODE	file:
+hash_2	test/test_index/index.c	/^	HASH				hash_2, hash_3;$/;"	m	struct:IDX_NODE	file:
+hash_2	test/test_interface/index.c	/^	HASH					hash_2, hash_3;$/;"	m	struct:IDX_NODE	file:
+hash_3	index.c	/^	HASH					hash_2, hash_3;$/;"	m	struct:IDX_NODE	file:
+hash_3	test/test_buffer/index.c	/^	HASH				hash_2, hash_3;$/;"	m	struct:IDX_NODE	file:
+hash_3	test/test_index/index.c	/^	HASH				hash_2, hash_3;$/;"	m	struct:IDX_NODE	file:
+hash_3	test/test_interface/index.c	/^	HASH					hash_2, hash_3;$/;"	m	struct:IDX_NODE	file:
+hash_func_1	index.c	/^static HASH hash_func_1(const char* key, int key_size)$/;"	f	file:
+hash_func_1	test/test_buffer/index.c	/^static HASH hash_func_1(const char* key, int key_size)$/;"	f	file:
+hash_func_1	test/test_index/index.c	/^static HASH hash_func_1(const char* key, int key_size)$/;"	f	file:
+hash_func_1	test/test_interface/index.c	/^static HASH hash_func_1(const char* key, int key_size)$/;"	f	file:
+hash_func_2	index.c	/^static HASH hash_func_2(const char* key, int key_size)$/;"	f	file:
+hash_func_2	test/test_buffer/index.c	/^static HASH hash_func_2(const char* key, int key_size)$/;"	f	file:
+hash_func_2	test/test_index/index.c	/^static HASH hash_func_2(const char* key, int key_size)$/;"	f	file:
+hash_func_2	test/test_interface/index.c	/^static HASH hash_func_2(const char* key, int key_size)$/;"	f	file:
+hash_func_3	index.c	/^static HASH hash_func_3(const char* key, int key_size)$/;"	f	file:
+hash_func_3	test/test_buffer/index.c	/^static HASH hash_func_3(const char* key, int key_size)$/;"	f	file:
+hash_func_3	test/test_index/index.c	/^static HASH hash_func_3(const char* key, int key_size)$/;"	f	file:
+hash_func_3	test/test_interface/index.c	/^static HASH hash_func_3(const char* key, int key_size)$/;"	f	file:
+ht_table	index.c	/^static	PTR_KW*		ht_table = NULL;  $/;"	v	file:
+ht_table	test/test_buffer/index.c	/^static	PTR_KW*		ht_table = NULL;  $/;"	v	file:
+ht_table	test/test_index/index.c	/^static	PTR_KW*		ht_table = NULL;  $/;"	v	file:
+ht_table	test/test_interface/index.c	/^static	PTR_KW*		ht_table = NULL;  $/;"	v	file:
+i	test/test_buffer/test_buffer.c	/^int state, i, max;$/;"	v
+i	test/test_interface/test_buffer.c	/^int state, i, max;$/;"	v
+idx_delete	index.c	/^int idx_delete(const char* key, int key_size, IDX_VALUE_INFO* delete_node)$/;"	f
+idx_delete	test/test_buffer/index.c	/^int idx_delete(const char* key, int key_size, IDX_VALUE_INFO* delete_node)$/;"	f
+idx_delete	test/test_index/index.c	/^int idx_delete(const char* key, int key_size, IDX_VALUE_INFO* delete_node)$/;"	f
+idx_delete	test/test_interface/index.c	/^int idx_delete(const char* key, int key_size, IDX_VALUE_INFO* delete_node)$/;"	f
+idx_exit	index.c	/^int idx_exit()$/;"	f
+idx_exit	test/test_buffer/index.c	/^int idx_exit()$/;"	f
+idx_exit	test/test_index/index.c	/^int idx_exit()$/;"	f
+idx_exit	test/test_interface/index.c	/^int idx_exit()$/;"	f
+idx_init	index.c	/^int idx_init(const char* image, INIT_TYPE init_type)$/;"	f
+idx_init	test/test_buffer/index.c	/^int idx_init(const char* image, const char* index_log, INIT_TYPE init_type)$/;"	f
+idx_init	test/test_index/index.c	/^int idx_init(const char* image, const char* index_log, INIT_TYPE init_type)$/;"	f
+idx_init	test/test_interface/index.c	/^int idx_init(const char* image, INIT_TYPE init_type)$/;"	f
+idx_insert	index.c	/^int idx_insert(const char* key, int key_size, IDX_VALUE_INFO** insert_node_ptr)$/;"	f
+idx_insert	test/test_buffer/index.c	/^int idx_insert(const char* key, int key_size, IDX_VALUE_INFO** insert_node_ptr)$/;"	f
+idx_insert	test/test_index/index.c	/^int idx_insert(const char* key, int key_size, IDX_VALUE_INFO** insert_node_ptr)$/;"	f
+idx_insert	test/test_interface/index.c	/^int idx_insert(const char* key, int key_size, IDX_VALUE_INFO** insert_node_ptr)$/;"	f
+idx_nodes	index.c	/^static	IDX_NODE* 	idx_nodes = NULL;$/;"	v	file:
+idx_nodes	test/test_buffer/index.c	/^static	IDX_NODE* 	idx_nodes = NULL;$/;"	v	file:
+idx_nodes	test/test_index/index.c	/^static	IDX_NODE* 	idx_nodes = NULL;$/;"	v	file:
+idx_nodes	test/test_interface/index.c	/^static	IDX_NODE* 	idx_nodes = NULL;$/;"	v	file:
+idx_search	index.c	/^int idx_search(const char* key, int key_size, IDX_VALUE_INFO** search_node)$/;"	f
+idx_search	test/test_buffer/index.c	/^int idx_search(const char* key, int key_size, IDX_VALUE_INFO** search_node)$/;"	f
+idx_search	test/test_index/index.c	/^int idx_search(const char* key, int key_size, IDX_VALUE_INFO** search_node)$/;"	f
+idx_search	test/test_interface/index.c	/^int idx_search(const char* key, int key_size, IDX_VALUE_INFO** search_node)$/;"	f
+image	test/test_index/test_index.c	/^char* image = NULL;$/;"	v
+in	test/test_interface/test_interface.c	/^struct kv_t in[MAX_SIZE], out[MAX_SIZE];$/;"	v	typeref:struct:kv_t
+in	test_interface.c	/^struct kv_t in[MAX_SIZE], out[MAX_SIZE];$/;"	v	typeref:struct:kv_t
+init	test/test_index/test_index.c	/^INIT_TYPE init = INIT_TYPE_CREATE;$/;"	v
+init_enum	test/test_buffer/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	g
+init_enum	test/test_index/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	g
+init_enum	test/test_interface/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	g
+init_enum	test/test_sync/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	g
+init_enum	test/test_sync_mmap(not finish)/type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	g
+init_enum	type.h	/^enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};$/;"	g
+init_type	kvs.h	/^	enum init_enum	init_type;$/;"	m	struct:KVS_ENV	typeref:enum:KVS_ENV::init_enum
+init_type	test/test_interface/kvs.h	/^	enum init_enum	init_type;$/;"	m	struct:KVS_ENV	typeref:enum:KVS_ENV::init_enum
+key	test/test_index/test_index.c	/^	char key[MAX_KEY_SIZE];$/;"	m	struct:key_type	file:
+key	test/test_index/test_index.c	/^}key[201];$/;"	v	typeref:struct:key_type
+key	test/test_interface/test_interface.c	/^	char key[1024];$/;"	m	struct:kv_t	file:
+key	test_interface.c	/^	char key[1024];$/;"	m	struct:kv_t	file:
+key_size	test/test_index/test_index.c	/^	int key_size;$/;"	m	struct:key_type	file:
+key_size	test/test_interface/test_interface.c	/^	int key_size, value_size;$/;"	m	struct:kv_t	file:
+key_size	test_interface.c	/^	int key_size, value_size;$/;"	m	struct:kv_t	file:
+key_table	test/test_interface/make_disk_file.c	/^char key_table[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};$/;"	v
+key_table	tools/make_disk_file.c	/^char key_table[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};$/;"	v
+key_type	test/test_index/test_index.c	/^struct key_type {$/;"	s	file:
+kv_delete	interface.c	/^int kv_delete(const char* key, int key_size)$/;"	f
+kv_delete	test/test_interface/interface.c	/^int kv_delete(const char* key, int key_size)$/;"	f
+kv_exit	interface.c	/^int kv_exit(int sync_image)$/;"	f
+kv_exit	test/test_interface/interface.c	/^int kv_exit(int sync_image)$/;"	f
+kv_get	interface.c	/^int kv_get(const char* key, int key_size, char* buf, int* buf_size)$/;"	f
+kv_get	test/test_interface/interface.c	/^int kv_get(const char* key, int key_size, char* buf, int* buf_size)$/;"	f
+kv_init	interface.c	/^int kv_init(const KVS_ENV* kvs)$/;"	f
+kv_init	test/test_interface/interface.c	/^int kv_init(const KVS_ENV* kvs)$/;"	f
+kv_put	interface.c	/^int kv_put(const char* key, int key_size, const char* value, int value_size)$/;"	f
+kv_put	test/test_interface/interface.c	/^int kv_put(const char* key, int key_size, const char* value, int value_size)$/;"	f
+kv_t	test/test_interface/test_interface.c	/^struct kv_t {$/;"	s	file:
+kv_t	test_interface.c	/^struct kv_t {$/;"	s	file:
+kvs_env	test/test_interface/test_interface.c	/^KVS_ENV kvs_env;$/;"	v
+kvs_env	test_interface.c	/^KVS_ENV kvs_env;$/;"	v
+last_flush_ptr	buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+last_flush_ptr	test/test_buffer/buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+last_flush_ptr	test/test_interface/buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+last_ptr	buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+last_ptr	test/test_buffer/buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+last_ptr	test/test_interface/buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+last_waste_ptr	buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+last_waste_ptr	test/test_buffer/buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+last_waste_ptr	test/test_interface/buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+left_id	index.c	/^	PTR_KW					left_id, right_id;$/;"	m	struct:IDX_NODE	file:
+left_id	test/test_buffer/index.c	/^	PTR_KW				left_id, right_id;$/;"	m	struct:IDX_NODE	file:
+left_id	test/test_index/index.c	/^	PTR_KW				left_id, right_id;$/;"	m	struct:IDX_NODE	file:
+left_id	test/test_interface/index.c	/^	PTR_KW					left_id, right_id;$/;"	m	struct:IDX_NODE	file:
+line_num	test/test_index/test_index.c	/^int line_num = 0;$/;"	v
+log_file	interface.c	/^FILE*	log_file = NULL;$/;"	v
+log_file	test/test_buffer/buffer.c	/^static	FILE*		log_file = NULL; $/;"	v	file:
+log_file	test/test_buffer/index.c	/^static	FILE*		log_file = NULL;$/;"	v	file:
+log_file	test/test_buffer/sync.c	/^static FILE* log_file = NULL;$/;"	v	file:
+log_file	test/test_index/index.c	/^static	FILE*		log_file = NULL;$/;"	v	file:
+log_file	test/test_interface/interface.c	/^FILE*	log_file = NULL;$/;"	v
+log_file	test/test_sync/sync.c	/^static FILE* log_file = NULL;$/;"	v	file:
+log_file	test/test_sync_mmap(not finish)/sync.c	/^static	FILE*	log_file = NULL;$/;"	v	file:
+log_file	trash/sync_mmap/sync.c	/^static	FILE*	log_file = NULL;$/;"	v	file:
+log_file	trash/sync_read/sync.c	/^static FILE* log_file = NULL;$/;"	v	file:
+log_file_path	kvs.h	/^	char*		log_file_path;$/;"	m	struct:KVS_ENV
+log_file_path	test/test_interface/kvs.h	/^	char*		log_file_path;$/;"	m	struct:KVS_ENV
+main	test/test_buffer/test_buffer.c	/^int main()$/;"	f
+main	test/test_index/test_index.c	/^int main()$/;"	f
+main	test/test_interface/make_disk_file.c	/^int main()$/;"	f
+main	test/test_interface/test_buffer.c	/^int main()$/;"	f
+main	test/test_interface/test_interface.c	/^int main()$/;"	f
+main	test/test_sync/make.c	/^int main()$/;"	f
+main	test/test_sync/test_sync.c	/^int main()$/;"	f
+main	test/test_sync_mmap(not finish)/make.c	/^int main()$/;"	f
+main	test/test_sync_mmap(not finish)/test_sync.c	/^int main()$/;"	f
+main	test_interface.c	/^int main()$/;"	f
+main	tools/make_disk_file.c	/^int main()$/;"	f
+max	test/test_buffer/test_buffer.c	/^int state, i, max;$/;"	v
+max	test/test_interface/test_buffer.c	/^int state, i, max;$/;"	v
+mutex	buffer.c	/^static	pthread_mutex_t	mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+mutex	test/test_buffer/buffer.c	/^static	pthread_mutex_t	mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+mutex	test/test_interface/buffer.c	/^static	pthread_mutex_t	mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+not_flush_size	buffer.c	/^static	int			sleep_time, not_flush_size, buffer_horizon_size;$/;"	v	file:
+not_flush_size	test/test_buffer/buffer.c	/^static	int		sleep_time, not_flush_size, buffer_horizon_size;$/;"	v	file:
+not_flush_size	test/test_interface/buffer.c	/^static	int			sleep_time, not_flush_size, buffer_horizon_size;$/;"	v	file:
+num	test/test_interface/test_interface.c	/^int num;$/;"	v
+num	test_interface.c	/^int num;$/;"	v
+one	buffer.c	/^enum	diff_t 		{same, one, two};$/;"	e	enum:diff_t	file:
+one	test/test_buffer/buffer.c	/^enum	diff_t 		{same, one, two};$/;"	e	enum:diff_t	file:
+one	test/test_interface/buffer.c	/^enum	diff_t 		{same, one, two};$/;"	e	enum:diff_t	file:
+out	test/test_interface/test_interface.c	/^struct kv_t in[MAX_SIZE], out[MAX_SIZE];$/;"	v	typeref:struct:
+out	test_interface.c	/^struct kv_t in[MAX_SIZE], out[MAX_SIZE];$/;"	v	typeref:struct:
+p_flushed	test/test_buffer/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_flushed	test/test_index/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_flushed	test/test_interface/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_flushed	test/test_sync/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_flushed	test/test_sync_mmap(not finish)/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_flushed	type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_not_flush	test/test_buffer/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_not_flush	test/test_index/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_not_flush	test/test_interface/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_not_flush	test/test_sync/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_not_flush	test/test_sync_mmap(not finish)/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_not_flush	type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_unavail	test/test_buffer/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_unavail	test/test_index/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_unavail	test/test_interface/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_unavail	test/test_sync/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_unavail	test/test_sync_mmap(not finish)/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+p_unavail	type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	e	enum:state_t
+print	test/test_index/test_index.c	/^void print(IDX_VALUE_INFO* value_info)$/;"	f
+put_info	test/test_buffer/test_buffer.c	/^IDX_VALUE_INFO	put_info[300];$/;"	v
+put_info	test/test_interface/test_buffer.c	/^IDX_VALUE_INFO	put_info[300];$/;"	v
+rest_space	buffer.c	/^static	int			first_flag, rest_space = 0;$/;"	v	file:
+rest_space	test/test_buffer/buffer.c	/^static	int		first_flag, rest_space = 0;$/;"	v	file:
+rest_space	test/test_interface/buffer.c	/^static	int			first_flag, rest_space = 0;$/;"	v	file:
+right_id	index.c	/^	PTR_KW					left_id, right_id;$/;"	m	struct:IDX_NODE	file:
+right_id	test/test_buffer/index.c	/^	PTR_KW				left_id, right_id;$/;"	m	struct:IDX_NODE	file:
+right_id	test/test_index/index.c	/^	PTR_KW				left_id, right_id;$/;"	m	struct:IDX_NODE	file:
+right_id	test/test_interface/index.c	/^	PTR_KW					left_id, right_id;$/;"	m	struct:IDX_NODE	file:
+same	buffer.c	/^enum	diff_t 		{same, one, two};$/;"	e	enum:diff_t	file:
+same	test/test_buffer/buffer.c	/^enum	diff_t 		{same, one, two};$/;"	e	enum:diff_t	file:
+same	test/test_interface/buffer.c	/^enum	diff_t 		{same, one, two};$/;"	e	enum:diff_t	file:
+sleep_time	buffer.c	/^static	int			sleep_time, not_flush_size, buffer_horizon_size;$/;"	v	file:
+sleep_time	test/test_buffer/buffer.c	/^static	int		sleep_time, not_flush_size, buffer_horizon_size;$/;"	v	file:
+sleep_time	test/test_interface/buffer.c	/^static	int			sleep_time, not_flush_size, buffer_horizon_size;$/;"	v	file:
+start_disk	test/test_sync_mmap(not finish)/sync.c	/^static	char*	start_disk = NULL;$/;"	v	file:
+start_disk	trash/sync_mmap/sync.c	/^static	char*	start_disk = NULL;$/;"	v	file:
+state	buffer.h	/^	enum state_t state;$/;"	m	struct:buf_word	typeref:enum:buf_word::state_t
+state	test/test_buffer/buffer.h	/^	enum state_t state;$/;"	m	struct:buf_word	typeref:enum:buf_word::state_t
+state	test/test_buffer/test_buffer.c	/^int state, i, max;$/;"	v
+state	test/test_index/test_index.c	/^int state;$/;"	v
+state	test/test_interface/buffer.h	/^	enum state_t state;$/;"	m	struct:buf_word	typeref:enum:buf_word::state_t
+state	test/test_interface/test_buffer.c	/^int state, i, max;$/;"	v
+state	test/test_sync/test_sync.c	/^int state;$/;"	v
+state	test/test_sync_mmap(not finish)/test_sync.c	/^int state;$/;"	v
+state_t	test/test_buffer/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	g
+state_t	test/test_index/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	g
+state_t	test/test_interface/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	g
+state_t	test/test_sync/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	g
+state_t	test/test_sync_mmap(not finish)/type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	g
+state_t	type.h	/^enum state_t { p_unavail, p_flushed, p_not_flush };$/;"	g
+sync_exit	sync.c	/^int sync_exit()$/;"	f
+sync_exit	test/test_buffer/sync.c	/^int sync_exit()$/;"	f
+sync_exit	test/test_interface/sync.c	/^int sync_exit()$/;"	f
+sync_exit	test/test_sync/sync.c	/^int sync_exit()$/;"	f
+sync_exit	test/test_sync_mmap(not finish)/sync.c	/^int sync_exit()$/;"	f
+sync_exit	trash/sync_mmap/sync.c	/^int sync_exit()$/;"	f
+sync_exit	trash/sync_read/sync.c	/^int sync_exit()$/;"	f
+sync_flush	test/test_buffer/sync.c	/^int sync_flush()$/;"	f
+sync_flush	test/test_sync/sync.c	/^int sync_flush()$/;"	f
+sync_flush	test/test_sync_mmap(not finish)/sync.c	/^int sync_flush()$/;"	f
+sync_flush	trash/sync_mmap/sync.c	/^int sync_flush()$/;"	f
+sync_flush	trash/sync_read/sync.c	/^int sync_flush()$/;"	f
+sync_image_load	sync.c	/^int sync_image_load(const char* file_name, char* g_image, int size)$/;"	f
+sync_image_load	test/test_interface/sync.c	/^int sync_image_load(const char* file_name, char* g_image, int size)$/;"	f
+sync_image_save	sync.c	/^int sync_image_save(const char* file_name, char* g_image, int size)$/;"	f
+sync_image_save	test/test_interface/sync.c	/^int sync_image_save(const char* file_name, char* g_image, int size)$/;"	f
+sync_init	sync.c	/^int sync_init(char* pathname, int file_len)$/;"	f
+sync_init	test/test_buffer/sync.c	/^int sync_init(char* pathname, int file_len, char* sync_log)$/;"	f
+sync_init	test/test_interface/sync.c	/^int sync_init(char* pathname, int file_len)$/;"	f
+sync_init	test/test_sync/sync.c	/^int sync_init(char* pathname, int file_len, char* sync_log)$/;"	f
+sync_init	test/test_sync_mmap(not finish)/sync.c	/^int sync_init(char* pathname, int file_len, char* sync_log)$/;"	f
+sync_init	trash/sync_mmap/sync.c	/^int sync_init(char* pathname, int file_len, char* sync_log)$/;"	f
+sync_init	trash/sync_read/sync.c	/^int sync_init(char* pathname, int file_len, char* sync_log)$/;"	f
+sync_read	sync.c	/^int sync_read(char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_read	test/test_buffer/sync.c	/^int sync_read(char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_read	test/test_interface/sync.c	/^int sync_read(char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_read	test/test_sync/sync.c	/^int sync_read(char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_read	test/test_sync_mmap(not finish)/sync.c	/^int sync_read(char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_read	trash/sync_mmap/sync.c	/^int sync_read(char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_read	trash/sync_read/sync.c	/^int sync_read(char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_write	sync.c	/^int sync_write(const char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_write	test/test_buffer/sync.c	/^int sync_write(const char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_write	test/test_interface/sync.c	/^int sync_write(const char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_write	test/test_sync/sync.c	/^int sync_write(const char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_write	test/test_sync_mmap(not finish)/sync.c	/^int sync_write(const char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_write	trash/sync_mmap/sync.c	/^int sync_write(const char* mem, int size, OFFSET_T disk_offset)$/;"	f
+sync_write	trash/sync_read/sync.c	/^int sync_write(const char* mem, int size, OFFSET_T disk_offset)$/;"	f
+tid	buffer.c	/^static	pthread_t	tid;$/;"	v	file:
+tid	test/test_buffer/buffer.c	/^static	pthread_t	tid;$/;"	v	file:
+tid	test/test_interface/buffer.c	/^static	pthread_t	tid;$/;"	v	file:
+two	buffer.c	/^enum	diff_t 		{same, one, two};$/;"	e	enum:diff_t	file:
+two	test/test_buffer/buffer.c	/^enum	diff_t 		{same, one, two};$/;"	e	enum:diff_t	file:
+two	test/test_interface/buffer.c	/^enum	diff_t 		{same, one, two};$/;"	e	enum:diff_t	file:
+value	test/test_buffer/test_buffer.c	/^	char value[1024];$/;"	m	struct:value_type	file:
+value	test/test_buffer/test_buffer.c	/^char value[1024];$/;"	v
+value	test/test_interface/test_buffer.c	/^	char value[1024];$/;"	m	struct:value_type	file:
+value	test/test_interface/test_buffer.c	/^char value[1024];$/;"	v
+value	test/test_interface/test_interface.c	/^	char value[1024*5+1];$/;"	m	struct:kv_t	file:
+value	test_interface.c	/^	char value[1024*5+1];$/;"	m	struct:kv_t	file:
+value_info	test/test_buffer/test_buffer.c	/^struct value_type value_info[300];$/;"	v	typeref:struct:value_type
+value_info	test/test_index/test_index.c	/^IDX_VALUE_INFO value_info;$/;"	v
+value_info	test/test_interface/test_buffer.c	/^struct value_type value_info[300];$/;"	v	typeref:struct:value_type
+value_info_ptr	buffer.h	/^	IDX_VALUE_INFO* value_info_ptr;$/;"	m	struct:buf_word
+value_info_ptr	test/test_buffer/buffer.h	/^	IDX_VALUE_INFO* value_info_ptr;$/;"	m	struct:buf_word
+value_info_ptr	test/test_index/test_index.c	/^IDX_VALUE_INFO* value_info_ptr = NULL;$/;"	v
+value_info_ptr	test/test_interface/buffer.h	/^	IDX_VALUE_INFO* value_info_ptr;$/;"	m	struct:buf_word
+value_info_ptr2	test/test_index/test_index.c	/^IDX_VALUE_INFO* value_info_ptr2 = &value_info;$/;"	v
+value_node	index.c	/^	IDX_VALUE_INFO			value_node;$/;"	m	struct:IDX_NODE	file:
+value_node	test/test_buffer/index.c	/^	IDX_VALUE_INFO			value_node;$/;"	m	struct:IDX_NODE	file:
+value_node	test/test_index/index.c	/^	IDX_VALUE_INFO			value_node;$/;"	m	struct:IDX_NODE	file:
+value_node	test/test_interface/index.c	/^	IDX_VALUE_INFO			value_node;$/;"	m	struct:IDX_NODE	file:
+value_ptr	test/test_buffer/test_buffer.c	/^IDX_VALUE_INFO* value_ptr = NULL;$/;"	v
+value_ptr	test/test_interface/test_buffer.c	/^IDX_VALUE_INFO* value_ptr = NULL;$/;"	v
+value_size	buffer.h	/^	int value_size;$/;"	m	struct:buf_word
+value_size	index.h	/^	int		value_size;$/;"	m	struct:IDX_VALUE_INFO
+value_size	test/test_buffer/index.h	/^	int		value_size;$/;"	m	struct:IDX_VALUE_INFO
+value_size	test/test_buffer/test_buffer.c	/^	int value_size;$/;"	m	struct:value_type	file:
+value_size	test/test_index/index.h	/^	int		value_size;$/;"	m	struct:IDX_VALUE_INFO
+value_size	test/test_interface/buffer.h	/^	int value_size;$/;"	m	struct:buf_word
+value_size	test/test_interface/index.h	/^	int		value_size;$/;"	m	struct:IDX_VALUE_INFO
+value_size	test/test_interface/test_buffer.c	/^	int value_size;$/;"	m	struct:value_type	file:
+value_size	test/test_interface/test_interface.c	/^	int key_size, value_size;$/;"	m	struct:kv_t	file:
+value_size	test_interface.c	/^	int key_size, value_size;$/;"	m	struct:kv_t	file:
+value_type	test/test_buffer/test_buffer.c	/^struct value_type {$/;"	s	file:
+value_type	test/test_interface/test_buffer.c	/^struct value_type {$/;"	s	file:
+waste_ptr	buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+waste_ptr	test/test_buffer/buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+waste_ptr	test/test_interface/buffer.c	/^static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;$/;"	v	file:
+word_size	buffer.c	/^const	static	int	word_size = sizeof(buf_word);$/;"	v	file:
+word_size	test/test_buffer/buffer.c	/^const	static	int	word_size = sizeof(buf_word);$/;"	v	file:
+word_size	test/test_interface/buffer.c	/^const	static	int	word_size = sizeof(buf_word);$/;"	v	file:
