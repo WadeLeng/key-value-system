@@ -5,7 +5,7 @@
 # Filename:		test_interface.c
 # Description: 
 ============================================================================*/
-#include "kvs.h"
+#include <kvs.h>
 #include <stdio.h>
 #include <stdlib.h>
 
