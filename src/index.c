@@ -5,11 +5,13 @@
 # Filename:		index.c
 # Description: 
 ============================================================================*/
+#include <stdio.h>
+#include <errno.h>
+
 #include "index.h"
 #include "layout.h"
 #include "type.h"
-
-#include <stdio.h>
+#include "log.h"
 
 typedef struct IDX_NODE 
 {
@@ -56,7 +58,7 @@ int idx_init(const char* image, INIT_TYPE init_type)
 			idx_nodes[i].value_node.buf_ptr = BUF_PTR_NULL;
 	}
 
-	fprintf(log_file, "INDEX INIT SUCCESS.\n");
+	log_err(__FILE__, __LINE__, log_file, "INDEX INIT SUCCESS.");
 	return 0;
 }
 
@@ -76,18 +78,27 @@ int idx_insert(const char* key, int key_size, IDX_VALUE_INFO** insert_node_ptr)
 	while (node_id != IDX_NODE_NULL)
 	{
 		cmp = _is_hash_same(idx_nodes[node_id].hash_2, idx_nodes[node_id].hash_3, cur_hash_2, cur_hash_3);
-		if (cmp == 0) {
+		if (cmp == 0) 
+		{
+			log_err(__FILE__, __LINE__, log_file, "idx_insert---key already exist.");
 			return -1;
-		} else if (cmp < 0) {
+		} else if (cmp < 0) 
+		{
 			pre_node_ptr = &(idx_nodes[node_id].left_id);
 			node_id = idx_nodes[node_id].left_id;
-		} else {
+		} else 
+		{
 			pre_node_ptr = &(idx_nodes[node_id].right_id);
 			node_id = idx_nodes[node_id].right_id;
 		}
 	}
 
 	new_node_id = _get_free_idx_node();
+	if (new_node_id == -1)
+	{
+		log_err(__FILE__, __LINE__, log_file, "idx_insert---_get_free_idx_node fail.");
+		return -1;
+	}
 	idx_nodes[new_node_id].hash_2 = cur_hash_2;
 	idx_nodes[new_node_id].hash_3 = cur_hash_3;
 	idx_nodes[new_node_id].left_id = idx_nodes[new_node_id].right_id = IDX_NODE_NULL;
@@ -126,7 +137,8 @@ int idx_search(const char* key, int key_size, IDX_VALUE_INFO** search_node)
 			node_id = idx_nodes[node_id].right_id;
 		}
 	}
-
+	
+	log_err(__FILE__, __LINE__, log_file, "idx_search---key not found.");
 	return -1;	
 }
 
@@ -147,7 +159,10 @@ int idx_delete(const char* key, int key_size, IDX_VALUE_INFO* delete_node)
 	while ( 1 )
 	{
 		if (node_id == IDX_NODE_NULL)
+		{
+			log_err(__FILE__, __LINE__, log_file, "idx_delete---key not found.");
 			return -1;
+		}
 
 		cmp = _is_hash_same(idx_nodes[node_id].hash_2, idx_nodes[node_id].hash_3, cur_hash_2, cur_hash_3);
 		if (cmp == 0) {
@@ -193,7 +208,7 @@ int idx_delete(const char* key, int key_size, IDX_VALUE_INFO* delete_node)
 int idx_exit()
 {
 	if (log_file)
-		fprintf(log_file, "INDEX EXIT.\n");
+		log_err(__FILE__, __LINE__, log_file, "INDEX EXIT.");
 
 	return 0;
 }

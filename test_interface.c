@@ -22,7 +22,7 @@ int num;
 
 void fill_kvs_env()
 {
-	kvs_env.init_type = INIT_TYPE_CREATE;
+	kvs_env.init_type = INIT_TYPE_LOAD;
 	kvs_env.disk_file_path = "disk_file";
 	kvs_env.IMAGE_file_path = "IMAGE_file";
 	kvs_env.log_file_path = "log_file";

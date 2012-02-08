@@ -16,13 +16,13 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <assert.h>
 #include <errno.h>
 #include <string.h>
 
 #include "type.h"
 #include "layout.h"
 #include "sync.h"
+#include "log.h"
 
 static int fd = 0;
 extern FILE* log_file;
@@ -31,9 +31,12 @@ int sync_init(char* pathname)
 {
 	fd = open(pathname, O_RDWR | O_LARGEFILE | O_CREAT , S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP); 
 	if (fd <= 0) 
+	{
+		log_err(__FILE__, __LINE__, log_file, "sync_init---open file fail.");
 		return -1;
+	}
 
-	fprintf(log_file, "SYNC INIT SUCCESS.\n");
+	log_err(__FILE__, __LINE__, log_file, "SYNC INIT SUCCESS.");
 	return 0;
 }
 
@@ -44,11 +47,17 @@ int sync_read(char* mem, int size, OFFSET_T disk_offset)
 	char* ptr;
 
 	if (fd <= 0)
+	{
+		log_err(__FILE__, __LINE__, log_file, "sync_read---fd <= 0.");
 		return -1;
+	}
 
 	ret = lseek64(fd, (off64_t)disk_offset, SEEK_SET);
 	if (ret < 0)
+	{
+		log_err(__FILE__, __LINE__, log_file, "sync_read---lseek fail.");
 		return -1;
+	}
 
 	toread = size;
 	ptr = mem;
@@ -69,11 +78,17 @@ int sync_write(const char* mem, int size, OFFSET_T disk_offset)
 	const char* ptr;
 
 	if (fd <= 0) 
+	{
+		log_err(__FILE__, __LINE__, log_file, "sync_write---fd <= 0.");
 		return -1;
+	}
 
 	ret = lseek64(fd, (off64_t)disk_offset, SEEK_SET);
 	if (ret < 0) 
+	{
+		log_err(__FILE__, __LINE__, log_file, "sync_write---lseek fail.");
 		return -1;
+	}
 
 	towrite = size;
 	ptr = mem;
@@ -96,11 +111,17 @@ int sync_image_load(const char* file_name, char* g_image, int size)
 
 	image_fd = open(file_name, O_RDWR , S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP); 
 	if (image_fd <= 0) 
+	{
+		log_err(__FILE__, __LINE__, log_file, "sync_image_load---fd <= 0.");
 		return -1;
+	}
 
 	ret = lseek(image_fd, 0, SEEK_SET);
 	if (ret < 0)
+	{
+		log_err(__FILE__, __LINE__, log_file, "sync_image_load---lseek fail.");
 		return -1;
+	}
 
 	toread = size;
 	ptr = g_image;
@@ -123,11 +144,17 @@ int sync_image_save(const char* file_name, char* g_image, int size)
 	
 	image_fd = open(file_name, O_RDWR | O_CREAT , S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP); 
 	if (image_fd <= 0) 
+	{
+		log_err(__FILE__, __LINE__, log_file, "sync_image_save---fd <= 0.");
 		return -1;
+	}
 
 	ret = lseek(image_fd, 0, SEEK_SET);
 	if (ret < 0) 
+	{
+		log_err(__FILE__, __LINE__, log_file, "sync_image_save---lseek fail.");
 		return -1;
+	}
 
 	towrite = size;
 	ptr = g_image;
@@ -144,7 +171,7 @@ int sync_image_save(const char* file_name, char* g_image, int size)
 int sync_exit()
 {
 	if (log_file)
-		fprintf (log_file, "SYNC EXIT.\n");
+		log_err(__FILE__, __LINE__, log_file, "SYNC EXIT.");
 	close(fd);
 
 	return 0;
