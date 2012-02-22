@@ -3,7 +3,7 @@
 # E-mail: wade.hit@gmail.com
 # Last modified:	2012-02-04 16:59
 # Filename:		index.c
-# Description: 
+# Description: this is index
 ============================================================================*/
 #include <stdio.h>
 #include <errno.h>
