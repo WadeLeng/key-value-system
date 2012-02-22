@@ -1,0 +1,8 @@
+SYNC INIT SUCCESS.		sync.c[39]
+INDEX INIT SUCCESS.		index.c[61]
+BUFFER INIT SUCCESS.		buffer.c[61]
+KVS INIT SUCCESS.		interface.c[68]
+BUFFER EXIT.		buffer.c[203]
+INDEX EXIT.		index.c[211]
+SYNC EXIT.		sync.c[174]
+KVS EXIT.		interface.c[96]
