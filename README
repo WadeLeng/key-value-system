@@ -12,7 +12,8 @@ Contents of the directory tree is below.
   ./src		- sources of KVSystem
   ./tool	- tools, for example:make input file
   ./trash	- something not finish (it is not released)
-  ./test/	- for test and experiment (it is not released)
+  ./test	- for test and experiment (it is not released)
+  ./doc		- documents of system
 
 
 KVSystem was written by FoOTOo Lab. You can contact the author by e-mail to:
