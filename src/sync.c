@@ -86,7 +86,7 @@ int sync_write(const char* mem, int size, OFFSET_T disk_offset)
 	ret = lseek64(fd, (off64_t)disk_offset, SEEK_SET);
 	if (ret < 0) 
 	{
-		log_err(__FILE__, __LINE__, log_file, "sync_write---lseek fail.");
+		log_err(__FILE__, __LINE__, log_file, "sync_write---lseek fail. %d", disk_offset);
 		return -1;
 	}
 

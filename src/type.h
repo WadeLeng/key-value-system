@@ -13,8 +13,8 @@
 #define	_LARGEFILE64_SOURCE
 
 typedef int			PTR_KW;
-typedef char*		PTR_BUF;
-typedef	int	 		OFFSET_T;
+typedef char*			PTR_BUF;
+typedef	long long		OFFSET_T;
 typedef int			INIT_TYPE;
 typedef int			HASH;
 enum init_enum {INIT_TYPE_CREATE, INIT_TYPE_LOAD};

@@ -15,7 +15,7 @@
 
 typedef struct IDX_NODE 
 {
-	IDX_VALUE_INFO			value_node;
+	IDX_VALUE_INFO				value_node;
 	PTR_KW					left_id, right_id;
 	HASH					hash_2, hash_3;
 }IDX_NODE;
@@ -32,7 +32,7 @@ static	HASH	hash_func_3(const char* key, int key_size);
 
 static	int		_is_hash_same(HASH hash_x2, HASH hash_x3, HASH hash_y2, HASH hash_y3);
 static	int		_get_free_idx_node();
-static	void	_put_free_idx_node(int node_id);
+static	void		_put_free_idx_node(int node_id);
 
 int idx_init(const char* image, INIT_TYPE init_type)
 {

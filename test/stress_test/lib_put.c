@@ -3,7 +3,7 @@
 #include <time.h>
 #include <kvs.h>
 
-#define CNT 41943
+#define CNT 104858
 #define KEY_BUFFER_SIZE 10002
 #define VALUE_BUFFER_SIZE (100*1024)
 
@@ -14,6 +14,7 @@ char key_buffer[KEY_BUFFER_SIZE];
 void get_key(char* key, int i, int* key_size)
 {
 	*key_size = 0;
+	if (i == 0) *key_size = 1;
 	while (i > 0)
 	{
 		key[*key_size] = '0' + i % 10;
