@@ -10,4 +10,6 @@ tags
 value2.txt
 value.txt
 IMAGE_file
-
+disk_file
+log_file
+a.out

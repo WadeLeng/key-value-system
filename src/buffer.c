@@ -221,7 +221,7 @@ static void* buffer_lookout()
 
 	while(!exit_flag || not_flush_size > 0)
 	{
-		if (not_flush_size >= buffer_horizon_size)  //XXX: || diff == 2
+		if (not_flush_size >= buffer_horizon_size || exit_flag)  //XXX: || diff == 2
 		{
 			flushed = 0;
 			pthread_mutex_lock(&mutex);
