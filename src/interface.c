@@ -60,6 +60,11 @@ int kv_init(const KVS_ENV* kvs)
 		log_err(__FILE__, __LINE__, log_file, "kv_init---idx_init fail.");
 		return -1;
 	}
+	if (kvs->buffer_size <= MINIMUM_BUFFER_SIZE)
+	{
+		log_err(__FILE__, __LINE__, log_file, "kv_init---buffer_size smaller than MINIMUM_BUFFER_SIZE.");
+		return -1;
+	}
 	if (buffer_init(buffer_mem, kvs->buffer_size, kvs->buffer_sleep_time, kvs->buffer_horizon_size) != 0)
 	{
 		log_err(__FILE__, __LINE__, log_file, "kv_init---buffer_init fail.");

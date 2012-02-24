@@ -19,13 +19,13 @@
 #include "sync.h"
 #include "log.h"
 
-OFFSET_T			disk_offset;
+OFFSET_T		disk_offset;
 const	static	int	word_size = sizeof(buf_word);
 extern	FILE*		log_file; 
 static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;
-static	int			first_flag, rest_space = 0;
-static	int			sleep_time, not_flush_size, buffer_horizon_size;
-static	int			buffer_total_size, exit_flag;
+static	int		first_flag, rest_space = 0;
+static	int		sleep_time, not_flush_size, buffer_horizon_size;
+static	int		buffer_total_size, exit_flag;
 static	pthread_t	tid;
 static	pthread_mutex_t	mutex = PTHREAD_MUTEX_INITIALIZER;
 enum	diff_t 		{same, one, two};
