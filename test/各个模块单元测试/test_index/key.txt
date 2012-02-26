@@ -1,0 +1,21 @@
+20
+1 a
+2 33
+3 asd
+4 0000
+5 1q2w3
+10 assasaasas
+10 bbbbaaaaba
+10 aaaaaaaaac
+10 aaaaaaaaaa
+10 aaaaaaaaab
+10 ababababab
+10 zzzzzzzzzz
+10 asdfghjkl;
+10 exexceceaa
+10 bbbbbbbbbb
+6 1qw23e
+7 1qazxsw
+8 yyyytttt
+9 asweqasfe
+10 fdsjkdfjf
