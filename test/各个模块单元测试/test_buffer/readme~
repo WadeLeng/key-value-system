@@ -1,0 +1,5 @@
+gcov 97.01%
+flush thread is too slow, warning提示刷新线程的时间不佳，flush太慢了
+test_buffer.c里给的buffer空间很小，目地是测试重复几遍往buffer写的正确性
+
+58行：disk_offset = disk_value_offset；需要恢复。

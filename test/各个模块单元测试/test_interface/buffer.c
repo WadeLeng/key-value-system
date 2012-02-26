@@ -1,31 +1,28 @@
 /*============================================================================
 # Author: Wade Leng
 # E-mail: wade.hit@gmail.com
-# Last modified:	2012-02-04 16:58
+# Last modified:	2012-01-05 15:38
 # Filename:		buffer.c
 # Description: 
 ============================================================================*/
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <pthread.h>
-#include <string.h>
-#include <errno.h>
-
 #include "layout.h"
 #include "type.h"
 #include "index.h"
 #include "buffer.h"
 #include "sync.h"
-#include "log.h"
 
-OFFSET_T		disk_offset;
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <string.h>
+
+OFFSET_T			disk_offset;
 const	static	int	word_size = sizeof(buf_word);
 extern	FILE*		log_file; 
 static	PTR_BUF		buf_pool = NULL, exploit_ptr, waste_ptr, last_waste_ptr, last_ptr, last_flush_ptr;
-static	int		first_flag, rest_space = 0;
-static	int		sleep_time, not_flush_size, buffer_horizon_size;
-static	int		buffer_total_size, exit_flag;
+static	int			first_flag, rest_space = 0;
+static	int			sleep_time, not_flush_size, buffer_horizon_size;
+static	int			buffer_total_size, exit_flag;
 static	pthread_t	tid;
 static	pthread_mutex_t	mutex = PTHREAD_MUTEX_INITIALIZER;
 enum	diff_t 		{same, one, two};
@@ -37,7 +34,7 @@ int buffer_init(const char* buffer_mem, const int buf_size, const int buffer_sle
 {
 	if (horizon_size >= buf_size)		//for safe
 	{
-		log_err(__FILE__, __LINE__, log_file, "horizon_size is too large, DANGEROUS.");
+		fprintf(log_file, "horizon_size is too large, DANGEROUS\n");
 		return -1;
 	}
 	first_flag = 1;		
@@ -54,11 +51,9 @@ int buffer_init(const char* buffer_mem, const int buf_size, const int buffer_sle
 	disk_offset = DISK_VALUE_OFFSET;		
 
 	if (pthread_create(&tid, NULL, buffer_lookout, NULL) != 0)
-	{
-		log_err(__FILE__, __LINE__, log_file, "buffer_init---pthread_create fail.");
 		return -1;
-	}
-	log_err(__FILE__, __LINE__, log_file, "BUFFER INIT SUCCESS.");
+
+	fprintf(log_file, "BUFFER INIT SUCCESS.\n");
 
 	return 0;
 }
@@ -112,9 +107,9 @@ int buffer_put(const char* value, int value_size, PTR_BUF* buf_value_ptr, IDX_VA
 	else
 	{
 		avail_space = rest_space;						//last remain space
-		while (avail_space < value_size + word_size)				//exploit space
+		while (avail_space < value_size + word_size)	//exploit space
 		{
-			if (exploit_ptr >= waste_ptr)					//only use for just last once
+			if (exploit_ptr >= waste_ptr)				//only use for just last once
 			{
 				buf_word_ptr = (buf_word*)last_ptr;
 				*buf_value_ptr = (PTR_BUF)(last_ptr + word_size); 
@@ -175,11 +170,7 @@ int buffer_get(PTR_BUF buf, int buf_size, PTR_BUF buf_value_ptr)
 	buf_word_ptr = (buf_word*)(buf_value_ptr - word_size);
 	buf_value_size = buf_word_ptr->value_info_ptr->value_size;
 
-	if (buf_size < buf_value_size) 
-	{
-		log_err(__FILE__, __LINE__, log_file, "buffer_get---buf_size < buffer_value_size.");
-		return -1;
-	}
+	if (buf_size < buf_value_size) return -1;
 	memcpy(buf, buf_value_ptr, buf_value_size);
 	buf[buf_value_size] = '\0';
 
@@ -200,14 +191,11 @@ int buffer_delete(PTR_BUF buf_value_ptr)
 int buffer_exit()
 {
 	if (log_file)
-		log_err(__FILE__, __LINE__, log_file, "BUFFER EXIT.");
+		fprintf(log_file, "BUFFER EXIT.\n");
 
 	exit_flag = 1;
 	if (pthread_join(tid, NULL) != 0)
-	{
-		log_err(__FILE__, __LINE__, log_file, "buffer_exit---pthread_join fail.");
 		return -1;
-	}
 
 	return 0;
 }
@@ -221,7 +209,7 @@ static void* buffer_lookout()
 
 	while(!exit_flag || not_flush_size > 0)
 	{
-		if (not_flush_size >= buffer_horizon_size || exit_flag)  //XXX: || diff == 2
+		if (not_flush_size >= buffer_horizon_size)  //XXX: || diff == 2
 		{
 			flushed = 0;
 			pthread_mutex_lock(&mutex);
