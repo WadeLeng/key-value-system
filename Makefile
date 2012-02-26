@@ -5,7 +5,7 @@ SRC_KVS = interface.c index.c buffer.c sync.c log.c
 HEADERS = kvs.h index.h buffer.h sync.h log.h layout.h type.h
 
 $(OBJ): $(SRC_KVS) $(HEADERS)
-	$(CC) $(KVSFLAGS) -Wl,-soname,libkvs.so.1 -o $(OBJ) $(SRC_KVS)
+	$(CC) $(KVSFLAGS) -Wl,-soname,libkvs.so -o $(OBJ) $(SRC_KVS)
 
 all:
 	make $(OBJ)

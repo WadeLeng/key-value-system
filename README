@@ -1,26 +1,17 @@
 ================================================================
- KVSystem: a Key Value system
+ KVSystem: a Key Value system Version 0.1
 ================================================================
    README		- this file
-   test_interface.c	- test KVSystem
-   input_file		- input file of test_interface.c
-
 
 Contents of the directory tree is below.
 
-  ./		- user files
-  ./src		- sources of KVSystem
-  ./tool	- tools, for example:make input file
-  ./trash	- something not finish (it is not released)
-  ./test	- for test and experiment (it is not released)
-  ./doc		- documents of system
-
+  ./		- sources of key-value-system
+  ./doc		- documents 
+  ./test	- test all_module, correct, stress.
 
 KVSystem was written by FoOTOo Lab. You can contact the author by e-mail to:
 "wade.hit@gmail.com" or "takanoter@gmail.com"
 
 Thanks.
-
-
 
 == END OF FILE ==
